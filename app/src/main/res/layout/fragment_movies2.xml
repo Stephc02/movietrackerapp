@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ui.profile.ProfileFragment">
+
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Action"
+        android:gravity="left"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toStartOf="@id/movieswatched"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+    <TextView
+        android:id="@+id/movieswatched"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Sci-Fi"
+        android:gravity="left"
+        android:layout_marginLeft="32dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/textView4"
+        app:layout_constraintTop_toBottomOf="@id/textView3" />
+
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="64dp"
+        android:text="A thief who steals corporate secrets
+        through the use of dream-sharing technology is given the inverse task of planting  an idea into the mind of a C.E.O but his tragic past may doom the project and his team to disaster"
+        android:gravity="left"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000000"
+        android:textSize="20dp"
+        app:layout_constraintTop_toBottomOf="@id/movieswatched"
+        />
+
+    <TextView
+        android:id="@+id/reviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Reviews"
+        android:gravity="left"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/textView8" />
+
+    <TextView
+        android:id="@+id/addreviews"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Add a review..."
+        android:gravity="left"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000000"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/reviews" />
+
+    <TextView
+        android:id="@+id/review1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Review 1"
+        android:gravity="left"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/addreviews" />
+
+    <TextView
+        android:id="@+id/review2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Review 2"
+        android:gravity="left"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/review1" />
+
+    <TextView
+        android:id="@+id/review3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Review 3"
+        android:gravity="left"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/review2" />
+
+    <TextView
+        android:id="@+id/review4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:text="Review 4"
+        android:gravity="left"
+        android:layout_marginLeft="16dp"
+        android:textColor="#000000"
+        android:textSize="28dp"
+        android:textStyle="bold"
+        app:layout_constraintTop_toBottomOf="@id/review3" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

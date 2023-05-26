@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group android:checkableBehavior="single">
+    <item
+        android:id="@+id/nav_home"
+        android:icon="@drawable/baseline_video_camera_back_24"
+        android:title="@string/menu_movies" />
+        <item
+            android:id="@+id/navigation_dashboard"
+            android:icon="@drawable/baseline_search_24"
+            android:title="@string/title_discover" />
+        <item
+            android:id="@+id/navigation_profile"
+            android:icon="@drawable/baseline_person_24"
+            android:title="@string/title_profile" />
+
+
+    </group>
+</menu>
